@@ -1,0 +1,24 @@
+{
+	"name": "arcstream",
+	"version": "0.1.0",
+	"description": "Stream archive contents while extracting them",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/skerit/arcstream.git"
+	},
+	"keywords": [
+		"archive",
+		"rar",
+		"stream"
+	],
+	"dependencies": {
+		"protoblast": "0.1.x"
+	},
+	"author": "Jelle De Loecker <jelle@kipdola.be>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/skerit/arcstream/issues"
+	},
+	"homepage": "https://github.com/skerit/arcstream"
+}
