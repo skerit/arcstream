@@ -13,7 +13,9 @@
 		"stream"
 	],
 	"dependencies": {
-		"protoblast": "0.1.x"
+		"protoblast": "0.1.x",
+		"mmmagic": "0.3.x",
+		"rimraf": "2.3.x"
 	},
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"license": "MIT",
