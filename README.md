@@ -30,7 +30,17 @@ archive.addFile(1, '/my/archive.part2.rar');
 archive.addFile(2, '/my/archive.part3.rar');
 archive.addFile(3, '/my/archive.part4.rar');
 
-archive.on('file', function onFile(filename, stream) {
+archive.on('file', function onFile(filename, stream, arcfile) {
+
+    // Print the filename (without any paths)
+    console.log(filename);
+
+    // Print the path this was in inside the archive (empty string is root)
+    console.log(arcfile.directory);
+
+    // Print the extension of this file (empty string is no extension)
+    console.log(arcfile.extension);
+
     stream.pipe(fs.createWriteStream('/tmp/' + filename));
 });
 ```
@@ -45,7 +55,7 @@ var ArcStream = require('arcstream'),
 // Tar only allows 1 file
 archive.addFile('/my/archive.tgz');
 
-archive.on('file', function onFile(filename, stream) {
+archive.on('file', function onFile(filename, stream, arcfile) {
     stream.pipe(fs.createWriteStream('/tmp/' + filename));
 });
 ```

@@ -1,6 +1,6 @@
 {
 	"name": "arcstream",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Stream archive contents while extracting them",
 	"main": "index.js",
 	"repository": {
