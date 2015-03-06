@@ -1,3 +1,8 @@
+## 0.1.2 (2015-03-07)
+
+* Fix: supply `.r##` archives when unrar expects them
+* Look for the unrar **All OK** message, emit a corrupt event if it's missing
+
 ## 0.1.1 (2015-03-05)
 
 * Fix: remove temporary folder on exit
