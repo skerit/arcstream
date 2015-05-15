@@ -1,3 +1,9 @@
+## 0.1.3 (2015-05-16)
+
+* Many bugfixes
+* Performance improvements
+* More error handling
+
 ## 0.1.2 (2015-03-07)
 
 * Fix: supply `.r##` archives when unrar expects them
