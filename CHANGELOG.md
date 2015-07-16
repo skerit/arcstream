@@ -1,5 +1,6 @@
 ## 0.1.4 (WIP)
 
+* Use `graceful-fs` package to work around EMFILE errors
 
 ## 0.1.3 (2015-05-16)
 

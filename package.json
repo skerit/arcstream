@@ -16,7 +16,8 @@
 		"protoblast": "0.1.x",
 		"mmmagic": "0.3.x",
 		"rimraf": "2.3.x",
-		"mkdirp": "0.5.x"
+		"mkdirp": "0.5.x",
+		"graceful-fs": "3.0.x"
 	},
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"license": "MIT",
